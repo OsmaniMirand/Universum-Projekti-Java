@@ -1,1 +1,1 @@
-Cdo projekt e ka nje README file, me udhezime se instruksione se cka eshte perfunduar, cfare feature jane shtuar, dhe si eshte testuar!
+Cdo projekt e ka nje README file, me udhezime dhe instruksione se cka eshte perfunduar, cfare feature jane shtuar, dhe si eshte testuar.
