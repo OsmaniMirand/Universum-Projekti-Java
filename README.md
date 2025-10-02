@@ -57,7 +57,7 @@ docker-compose up -d
 ```
 
 ### 2. Testimi i API-ve
-Pas nisjes së aplikacionit, mund të testosh API-et në:
+Pas nisjes së aplikacionit:
 - **Swagger UI**: http://localhost:3000/testManagement-backend/swagger-ui.html
 - **API Docs**: http://localhost:3000/testManagement-backend/v3/api-docs
 
@@ -110,12 +110,3 @@ Pas nisjes së aplikacionit, mund të testosh API-et në:
 - **Build Tool**: Gradle
 - **Containerization**: Docker
 
-## Kontributi
-Për të kontribuar në projekt:
-1. Fork projektin
-2. Krijo një branch të ri për feature-in tënd
-3. Bëj commit-et e nevojshme
-4. Hap një Pull Request
-
-## Licensa
-[Specifiko licencën e projektit]
