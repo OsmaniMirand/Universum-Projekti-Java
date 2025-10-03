@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreu - Lenda Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">WebDesign</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Kreu</a>
+                <a href="about.html" class="nav-link">Rreth Nesh</a>
+                <a href="contact.html" class="nav-link">Kontakti</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Mirë se vini në Web Design</h1>
+                <p>Krijojmë website moderne dhe responsive për biznesin tuaj</p>
+                <button class="cta-button" onclick="scrollToSection('services')">Shërbimet Tona</button>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Shërbimet Tona</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Web Design</h3>
+                        <p>Dizajn modern dhe atraktiv për website-in tuaj</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Responsive Design</h3>
+                        <p>Website i përshtatshëm për të gjitha pajisjet</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>JavaScript Development</h3>
+                        <p>Funksionalitet interaktiv dhe dinamik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lenda Web Design. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

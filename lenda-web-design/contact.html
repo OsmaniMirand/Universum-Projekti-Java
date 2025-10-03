@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti - Lenda Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">WebDesign</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Kreu</a>
+                <a href="about.html" class="nav-link">Rreth Nesh</a>
+                <a href="contact.html" class="nav-link active">Kontakti</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Kontaktoni Me Ne</h1>
+                <p>Jemi këtu për t'ju ndihmuar me projektin tuaj</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Informacioni i Kontaktit</h2>
+                        <div class="contact-item">
+                            <h3>Adresa</h3>
+                            <p>Rruga "Dëshmorët e Kombit", Tiranë, Shqipëri</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Telefoni</h3>
+                            <p>+355 69 123 4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>info@webdesign.al</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Orari i Punës</h3>
+                            <p>E Hënë - E Premte: 9:00 - 17:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>Dërgoni një Mesazh</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Emri juaj" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email-i juaj" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subjekti" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Mesazhi juaj" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Dërgo Mesazhin</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lenda Web Design. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
