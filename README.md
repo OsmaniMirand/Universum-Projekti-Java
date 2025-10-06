@@ -3,3 +3,4 @@ Cdo projekt e ka nje README file, me udhezime dhe instruksione se cka eshte perf
 
 1. PROJECT/testmang - Permban detyren/projektin nga lenda "Gjuhe programuese me Java".
 2. Sistemi i Menaxhimit të Databazës - Permban detyren per lenden "Sistemi i Menaxhimit të Databazës"
+3. Lenda-web-design - Permban detyren per lenden e "Web-Design"

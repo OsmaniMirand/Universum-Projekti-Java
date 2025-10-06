@@ -16,7 +16,7 @@ lenda-web-design/
 
 ## Karakteristikat
 
-### ✅ Kërkesat e Përmbushura
+
 
 - **Tri faqe të ndërlidhura**: Kreu, Rreth Nesh, Kontakti
 - **Navigim funksional**: Menu responsive me hamburger për mobile
@@ -24,14 +24,14 @@ lenda-web-design/
 - **Struktura moderne**: Design i pastër dhe profesional
 - **Elementë interaktivë**: Butona, forma, animacione
 
-### 🎨 Teknologjitë e Përdorura
+
 
 - **HTML5**: Struktura semantike
 - **CSS3**: Stilizim modern me Flexbox dhe Grid
 - **JavaScript**: Funksionalitet interaktiv
 - **Responsive Design**: Media queries për të gjitha pajisjet
 
-### 📱 Funksionalitetet
+
 
 1. **Navigation Bar**:
    - Menu responsive
